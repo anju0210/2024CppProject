@@ -1,5 +1,4 @@
-#ifndef UFO_HPP
-#define UFO_HPP
+#pragma once
 
 #include <SFML/Graphics.hpp>
 #include <iostream>
@@ -19,5 +18,3 @@ public:
     void draw(sf::RenderWindow& window);
     void setTexture(const std::string& texturePath);
 };
-
-#endif // UFO_HPP
